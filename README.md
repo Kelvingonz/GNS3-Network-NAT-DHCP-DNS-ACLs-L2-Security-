@@ -8,7 +8,7 @@
 This lab simulates a small enterprise network with:
 
 - NAT overload (PAT) for internet access
-- DHCP for multiple VLANs
+- DHCP for multiple subnets
 - Layer 2 switching
 - DHCP Snooping and Dynamic ARP Inspection (DAI)
 
@@ -22,9 +22,9 @@ This lab simulates a small enterprise network with:
    - g1/0 = Internal network
 
 ### Internal Networks
-  Network ---- Gateway ---- Purpose
-- 192.168.10.0/24 ---- 192.168.10.254 ---- VLAN 10
-- 192.168.20.0/24 ----	192.168.20.254 ---- VLAN 20
+  Network ---- Gateway ----
+- 192.168.10.0/24 ---- 192.168.10.254 ----
+- 192.168.20.0/24 ----	192.168.20.254 ----
 
 ### DHCP
 - Centralized on Distribution Router
@@ -50,7 +50,6 @@ access-list 1 permit 192.168.20.0 0.0.0.255 <br>
 - Trusted ports configured toward router/uplinks
 
 ### Features Implemented
-- Inter-VLAN routing
 - DHCP services
 - NAT overload (PAT)
 - DNS reachability
