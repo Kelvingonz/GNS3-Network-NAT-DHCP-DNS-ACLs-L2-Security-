@@ -5,7 +5,7 @@
 
 ## Overview
 
-This lab simulates a small enterprise network with:
+This GNS3 simulates a small enterprise network with:
 
 - NAT overload (PAT) for internet access
 - DHCP for multiple subnets
