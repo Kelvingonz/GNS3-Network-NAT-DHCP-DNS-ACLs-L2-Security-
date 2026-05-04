@@ -1,6 +1,6 @@
 # Enterprise-Network-Lab-NAT-DHCP-DNS-L2-Security-
 
-<img width="1665" height="821" alt="Topology" src="https://github.com/user-attachments/assets/cf1608dc-c4a2-4270-96ae-d4756edc388f" />
+<img width="1915" height="972" alt="Topology" src="https://github.com/user-attachments/assets/13071178-ac3c-4d7e-a6e2-10f3d7093eca" />
 
 
 ## Overview
@@ -22,9 +22,9 @@ This lab simulates a small enterprise network with:
    - g1/0 = Internal network
 
 ### Internal Networks
-  Network ---- Gateway ----
-- 192.168.10.0/24 ---- 192.168.10.254 ----
-- 192.168.20.0/24 ----	192.168.20.254 ----
+  Network ---- Gateway ----Device
+- 192.168.10.0/24 ---- 192.168.10.254 ---- L2Switch-1
+- 192.168.20.0/24 ----	192.168.20.254 ---- L2Switch-2
 
 ### DHCP
 - Centralized on Distribution Router
