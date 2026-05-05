@@ -2,13 +2,13 @@ p# 3-Tier Architecture Network (NAT + DHCP + DNS + L2 Security) via GNS3
 
 <img width="1920" height="844" alt="Topology" src="https://github.com/user-attachments/assets/4a782d1c-4d94-4af2-9ec1-edb9c11e2b2e" />
 
+Simplified collapsed core 3-tier lab showcasing NAT, DHCP, routing, and L2 security. <br>
 
 ## Overview
 This is a non-production environment used for testing networking protocols, configurations, and security features in a controlled setup.
 <br>
 <br> Faults: Has single points of failure and no redundancy. Ideally dual devices, FHRP, and link redundancy should be added but I will leave that for future project.
 <br><br>
-Simplified collapsed core 3-tier lab showcasing NAT, DHCP, routing, and L2 security. <br>
 
 <br>
 This GNS3 project simulates a network with:
