@@ -4,11 +4,10 @@ p# 3-Tier Architecture Network (NAT + DHCP + DNS + L2 Security) via GNS3
 
 
 ## Overview
-This GNS3 lab is a non-production environment used for testing networking protocols, configurations, and security features in a controlled setup.
+This is a non-production environment used for testing networking protocols, configurations, and security features in a controlled setup.
 <br>
-<br> Faults: Has single points of failure and no redundancy.<br>
-Ideally dual devices, FHRP, and link redundancy should be added but I will leave that for future project.
-<br>
+<br> Faults: Has single points of failure and no redundancy. Ideally dual devices, FHRP, and link redundancy should be added but I will leave that for future project.
+<br><br>
 Simplified collapsed core 3-tier lab showcasing NAT, DHCP, routing, and L2 security. <br>
 
 <br>
