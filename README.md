@@ -36,8 +36,8 @@ This GNS3 project simulates a network with:
 - Excluded Addresses: 192.168.10.254 and 192.168.20.254
   - Reserved to keep static IP addresses on access switches.
 - Pools:
-   - POOL1: 192.168.1.0/24
-   - POOL2: 192.168.2.0/24
+   - POOL1: 192.168.10.0/24
+   - POOL2: 192.168.20.0/24
 - DNS: 8.8.8.8
 - Domain: kelvin.lab.local
 
