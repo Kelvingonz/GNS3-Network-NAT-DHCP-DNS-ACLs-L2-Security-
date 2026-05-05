@@ -41,9 +41,13 @@ This GNS3 project simulates a network with:
   - Reserved to keep static IP addresses on access switches.
 - Pools:
    - POOL10: 192.168.10.0/24
+      - DNS: 8.8.8.8
+      - Domain: kelvin.lab.local
+      - Default Gateway: 192.168.10.254
    - POOL20: 192.168.20.0/24
-- DNS: 8.8.8.8
-- Domain: kelvin.lab.local
+      - DNS: 8.8.8.8
+      - Domain: kelvin.lab.local
+      - Default Gateway: 192.168.20.254
 
 ### NAT + ACLs
 - Inside: g1/0 <br>
