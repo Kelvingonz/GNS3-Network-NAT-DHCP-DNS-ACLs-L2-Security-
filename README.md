@@ -9,9 +9,6 @@ Limitations: This topology contains single points of failure and lacks redundanc
 
 This lab was built using Cisco Virtual IOS L2 (vIOS L2) switch images and Cisco 7200 IOS (C7200-ADVENTERPRISEK9-M) router images.
 
-This is a non-production environment used for testing networking protocols, configurations, and security features in a controlled setup.
-<br>
-
 ### This GNS3 project simulates a network with:
 
 - NAT overload (PAT) for internet access
