@@ -8,7 +8,6 @@ Simplified collapsed core 3-tier lab showcasing NAT, DHCP, routing, and L2 secur
 This is a non-production environment used for testing networking protocols, configurations, and security features in a controlled setup.
 <br>
 <br> Faults: Has single points of failure and no redundancy. Ideally dual devices, FHRP, and link redundancy should be added but I will leave that for future project.
-
 <br>
 This GNS3 project simulates a network with:
 
