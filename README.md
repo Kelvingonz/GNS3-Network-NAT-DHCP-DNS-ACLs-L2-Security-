@@ -2,7 +2,7 @@
 
 <img width="1920" height="902" alt="Topology" src="https://github.com/user-attachments/assets/84b13be9-0c30-46ce-a2f4-b9e8129b3784" />
 <br>
-Simplified collapsed core 3-tier architecture network showcasing NAT, DHCP, routing, and L2 security using GNS3 VM. <br>
+Simplified collapsed core 3-tier architecture network showcasing NAT, DHCP, DNS, ACLs, switching, routing, and L2 security using GNS3 VM. <br>
 
 ## Overview
 This lab was built using Cisco Virtual IOS L2 (vIOS L2) switch images and Cisco 7200 IOS (C7200-ADVENTERPRISEK9-M) router images.
@@ -15,6 +15,7 @@ This is a non-production environment used for testing networking protocols, conf
 This GNS3 project simulates a network with:
 
 - NAT overload (PAT) for internet access
+- Use ACLs to identify which traffic should be translated via PAT 
 - DHCP services for internal subnets
 - Layer 2 switching / Layer 3 routing 
 - DHCP Snooping and Port Security (Sticky MAC)
@@ -44,14 +45,16 @@ This GNS3 project simulates a network with:
 - DNS: 8.8.8.8
 - Domain: kelvin.lab.local
 
-### NAT
+### NAT + ACLs
 - Inside: g1/0 <br>
 - Outside: g0/0 <br>
-PAT using access-list: <br>
+
+NAT Overload PAT using access-list: <br>
 ip access-list standard PAT <br>
 permit 192.168.10.0 0.0.0.255 <br>
 permit 192.168.20.0 0.0.0.255 <br>
-- NAT Overload: g0/0
+
+- ip nat inside source list PAT interface GigabitEthernet0/0 overload
 
 ### Layer 2 Security
 - DHCP Snooping enabled
