@@ -33,6 +33,9 @@ This lab was built using Cisco Virtual IOS L2 (vIOS L2) switch images and Cisco 
 - 192.168.20.0/24 ----	192.168.20.254 ---- 
 
 ### NAT + ACLs
+
+#### Implemented on Edge Router
+
 - NAT Inside: g1/0 <br>
 - NAT Outside: g0/0 <br>
 
@@ -44,7 +47,7 @@ permit 192.168.20.0 0.0.0.255 <br>
 - ip nat inside source list PAT interface GigabitEthernet0/0 overload
 
 ### DHCP
-- Centralized on Distribution Router
+#### Centralized on Distribution Router
 - Excluded IP Addresses: 192.168.10.254 and 192.168.20.254
   - Reserved to keep static IP addresses on access switches.
 - Pools:
