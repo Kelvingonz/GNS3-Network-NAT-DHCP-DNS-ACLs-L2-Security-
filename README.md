@@ -1,4 +1,4 @@
-# Enterprise-Network-Lab-NAT-DHCP-DNS-L2-Security-
+# GNS3-Network-NAT-DHCP-DNS-L2-Security
 
 <img width="1915" height="972" alt="Topology" src="https://github.com/user-attachments/assets/13071178-ac3c-4d7e-a6e2-10f3d7093eca" />
 
