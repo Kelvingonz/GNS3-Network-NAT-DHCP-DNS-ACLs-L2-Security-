@@ -46,8 +46,9 @@ This GNS3 project simulates a network with:
 - Inside: g1/0 <br>
 - Outside: g0/0 <br>
 PAT using access-list: <br>
-access-list 1 permit 192.168.10.0 0.0.0.255 <br>
-access-list 1 permit 192.168.20.0 0.0.0.255 <br>
+ip access-list standard PAT <br>
+permit 192.168.10.0 0.0.0.255 <br>
+permit 192.168.20.0 0.0.0.255 <br>
 - NAT Overload: g0/0
 
 ### Layer 2 Security
