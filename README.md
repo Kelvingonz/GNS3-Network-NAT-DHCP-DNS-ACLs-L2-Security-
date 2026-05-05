@@ -1,4 +1,4 @@
-# 3-Tier Architecture Network (NAT + DHCP + DNS + L2 Security) via GNS3
+p# 3-Tier Architecture Network (NAT + DHCP + DNS + L2 Security) via GNS3
 
 <img width="1920" height="844" alt="Topology" src="https://github.com/user-attachments/assets/4a782d1c-4d94-4af2-9ec1-edb9c11e2b2e" />
 
@@ -24,7 +24,7 @@ This GNS3 project simulates a network with:
 - Public block: 192.168.1.0/24
 
 - Edge Router (NAT):
-   - g0/0 = ISP (VMnet)
+   - g0/0 = ISP (Network Adapter VMnet8)
    - g1/0 = Internal network
 
 ### Internal Networks
