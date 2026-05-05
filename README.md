@@ -21,9 +21,9 @@ This GNS3 simulates a small enterprise network with:
    - g1/0 = Internal network
 
 ### Internal Networks
-  Network ---- Gateway ----Device
-- 192.168.10.0/24 ---- 192.168.10.254 ---- L2Switch-1
-- 192.168.20.0/24 ----	192.168.20.254 ---- L2Switch-2
+  Network ---- Gateway ----
+- 192.168.10.0/24 ---- 192.168.10.254 ---- 
+- 192.168.20.0/24 ----	192.168.20.254 ---- 
 
 ### DHCP
 - Centralized on Distribution Router
