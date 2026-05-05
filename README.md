@@ -9,6 +9,7 @@ This is a non-production environment used for testing networking protocols, conf
 <br>
 <br> Faults: Has single points of failure and no redundancy. Ideally dual devices, FHRP, and link redundancy should be added but I will leave that for future project.
 <br>
+
 This GNS3 project simulates a network with:
 
 - NAT overload (PAT) for internet access
