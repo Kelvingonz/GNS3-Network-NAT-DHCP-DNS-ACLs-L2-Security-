@@ -63,7 +63,7 @@ permit 192.168.20.0 0.0.0.255 <br>
 ### Layer 2 Security
 - DHCP Snooping enabled
   - Trusted ports configured toward router/uplinks
-  - Limit rate of 4 DHCP packets per second on untrusted ports
+  - Limit rate of 4 DHCP packets per second on untrusted ports (end-users)
 - Port Security (Sticky MAC)
    - Enabled on switch ports connected to end-users
    - Maximum MAC addresses allowed on each switch: 2
